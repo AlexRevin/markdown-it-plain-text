@@ -9,7 +9,7 @@
     "plain text",
     "plain-text"
   ],
-  "repository": "wavesheep/markdown-it-plain-text.git",
+  "repository": "AlexRevin/markdown-it-plain-text.git",
   "homepage": "https://github.com/wavesheep/markdown-it-plain-text#readme",
   "main": "index.js",
   "scripts": {
