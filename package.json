@@ -1,5 +1,5 @@
 {
-  "name": "AlexRevin/markdown-it-plain-text",
+  "name": "markdown-it-plain-text",
   "version": "0.3.0",
   "description": "plain text extractor plugin for markdown-it markdown parser",
   "keywords": [

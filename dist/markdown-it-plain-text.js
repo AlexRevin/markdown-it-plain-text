@@ -21,10 +21,12 @@ var markdownItPlainTextPlugin = (function () {
             token.type === 'html_block' ||
             token.type === 'code_block' ||
             token.type === 'code_inline' ||
-            token.type === 'html_inline' ||
+            token.type === '  ' ||
             token.type === 'emoji'
           ) {
             text += token.content;
+          } else if (token.type === 'heading_close' || token.type === 'heading_open'){
+            text += "\r\n\r\n";
           } else if (/[a-zA-Z]+_close/.test(token.type)) { // prevent words from sticking together
             text += " ";
           }
